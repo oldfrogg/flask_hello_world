@@ -8,6 +8,12 @@ Assim, é possível auxiliar os iniciantes a começar a usar este micro framewor
 
 ## Execução
 
+**_O recomendável para quem está iniciando, é seguir os passos a partir do arquivo "app.py", deste repositório.
+A execução seguindo o passo-a-passo a seguir deve ser feita em caso de ter algum problema seguindo o "app.py"._**
+
+
+Caso queira executar o arquivo pronto, basta seguir a partir daqui:
+
 O primeiro passo é fazer o download dos arquivos na pasta desejada.
 
 Agora abra o diretório em seu ambiente de programação.
