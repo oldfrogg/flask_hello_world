@@ -3,8 +3,8 @@
 # Via prompt:
 # - Abrir diretório
 # - Criar o arquivo app.py 
-# - Criar o ambiente virtual: >python -m venv env /// ou python3 -m venv env
-# - Abrir o ambiente virtual: >.\env\Scripts\activate (WINDOWS)  /// source env/bin/activate (LINUX)
+# - Criar o ambiente virtual: >python -m venv venv /// ou python3 -m venv venv
+# - Abrir o ambiente virtual: >.\venv\Scripts\activate (WINDOWS)  /// source venv/bin/activate (LINUX)
 # - Instalar o Flask: >pip install flask
 
 from flask import Flask # Importo o Flask para poder trabalhar com ele
@@ -12,7 +12,7 @@ from flask import Flask # Importo o Flask para poder trabalhar com ele
 app = Flask(__name__) # Instancio o aplicativo base do Flask (é como criar a aplicação Flask), com isso consigo configurar rotas e outras funcionalidades básicas de um aplicativo Flask
 
 @app.get('/') # Defino a rota
-def home(): # Nomeio a função dessa rota
+def home(): # Nomeio e defino a função dessa rota
     return 'Hello, World!' # Retorno da função e rota
 
 if __name__ == '__main__':  # Verifica se à variável especial __name__ foi atribuído valor de '__main__', ou seja, se foi executada, e não importada
